@@ -1,14 +1,22 @@
 # EJERCICIO DE LOGICA PROGRAMADOS EN JAVASCRIPT
 
-Este repositorio contiene la solucion al diferentes ejercicios, que fueron obtenidos del sitio web [Codewars][https://www.codewars.com/]
+Este repositorio contiene la solucion al diferentes ejercicios, que fueron obtenidos del sitio web [Codewars](https://www.codewars.com/)
 
 El presente repositorio esta enfocado a la resolucion de problemas de ejercicios propuestos en diferentes plataformas de programacion, siendo esta la version para JavaScript.
 
-## LISTA DE EJERCICIOS
+## Derechos de autor
 
-# Do you speak "English"? - ¿HABLAS INGLES?
+El ejercicio y su descripcion son propiedad de [Codewars](https://www.codewars.com/) y sus respectivos autores.
+Agradezco a [Codewars](https://www.codewars.com/) por proporcionar este desafio y permitirme compartir mi solucion.
 
-## Referencia
+## Licencia
+
+Este código se proporciona bajo la licencia [MIT](LICENSE).
+Sin embargo, el ejercicio y su descripción son propiedad de [Codewars](https://www.codewars.com) y deben respetarse sus términos y condiciones.
+
+<br>
+
+> # (#1) Do you speak "English"? - ¿HABLAS INGLES?
 
 **Ejercicio obtenido de:** [Codewars - Do you speak "English"?](https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058)
 
@@ -23,13 +31,15 @@ La letra superior o minúscula no importa:
 Valor de retorno como valores booleanos, verdadero para que la cadena contenga "inglés",
 falso porque no lo hace.
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo[ejercicio_01.js](./ejercicio_01.js).
 
-La solución se encuentra en el archivo [ejercicio_01.js][EjerciciosNodeJS/ejercicio_01.js].
+<br>
 
-## Do you speak retsec? - ¿HABLAS RETSEC?
-
-# Referencia
+> # (#2) Do you speak retsec? - ¿HABLAS RETSEC?
 
 **Ejercicio obtenido de:** [Codewars Do you speak retsec?](https://www.codewars.com/kata/5516ab668915478845000780)
 
@@ -40,7 +50,7 @@ Para intercambiar sus mensajes secretos , ha creado el siguiente sistema:
 toma la palabra, la corta por la mitad y coloca la primera mitad detrás de este último.
 Si la palabra tiene un número desigual de caracteres, deja el medio en su lugar anterior:
 
-SECRET ===> [RET][SEC] AGENT ===> [NT](E)[AG]
+    SECRET ===> [RET][SEC] AGENT ===> [NT](E)[AG]
 
 De esa manera, podrá intercambiar sus mensajes en privado.
 Tarea
@@ -52,18 +62,20 @@ deje el personaje en el medio en esa posición e intercambie los trozos a su alr
 
 Ejemplos
 
-reverse_by_center("secret") == "retsec" # no center character
-reverse_by_center("agent") == "nteag" # center character is "e"
+    reverse_by_center("secret") == "retsec" # no center character
+    reverse_by_center("agent") == "nteag" # center character is "e"
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_02.js](./ejercicio_02.js).
 
-La solución se encuentra en el archivo [ejercicio_02.js][EjerciciosNodeJS/ejercicio_02.js].
+<br>
 
-## GRABDOLL
+> # (#3) GRABDOLL
 
-# Referencia
-
-**Ejercicio obtenido de:** [Codewars Training JS #11: loop statement --break,continue][https://www.codewars.com/kata/5721c189cdd71194c1000b9b]
+**Ejercicio obtenido de:** [Codewars Training JS #11: loop statement --break,continue](https://www.codewars.com/kata/5721c189cdd71194c1000b9b)
 
 ## Descripción del Ejercicio
 
@@ -80,15 +92,17 @@ si la bolsa no está llena, debes continuar recorriendo dolls hasta el último e
 Retorna la bolsa después de que el bucle for haya terminado.
 Debes usar for, break y continue en tu código.
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_03.js](./ejercicio_03.js).
 
-La solución se encuentra en el archivo [ejercicio_03.js][EjerciciosNodeJS/ejercicio_03.js].
+<br>
 
-## Split The Bill - SEPARA EL DINERO
+> # (#4) Split The Bill - SEPARA EL DINERO
 
-# Referencia
-
-**Ejercicio obtenido de:** [Codewars Split The Bill][https://www.codewars.com/kata/5641275f07335295f10000d0]
+**Ejercicio obtenido de:** [Codewars Split The Bill](https://www.codewars.com/kata/5641275f07335295f10000d0)
 
 ## Descripción del Ejercicio
 
@@ -113,15 +127,17 @@ Puntos adicionales:
 
     Si el valor es un decimal, redondéalo a dos decimales.
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_04.js](./ejercicio_04.js).
 
-La solución se encuentra en el archivo [ejercicio_04.js][EjerciciosNodeJS/ejercicio_04.js].
+<br>
 
-## Transform To Prime PRIMO MAS CERCANO
+> # (#5) Transform To Prime PRIMO MAS CERCANO
 
-# Referencia
-
-**Ejercicio obtenido de:** [Ƈodewars Transform To Prime][https://www.codewars.com/kata/5a946d9fba1bb5135100007c].
+**Ejercicio obtenido de:** [Ƈodewars Transform To Prime](https://www.codewars.com/kata/5a946d9fba1bb5135100007c).
 
 ## Descripción
 
@@ -161,15 +177,17 @@ Explicación:
     El número primo más cercano es 191.
     Necesitamos insertar 2 para alcanzar 191.
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_05.js](./ejercicio_05.js).
 
-La solución se encuentra en el archivo [ejercicio_05.js][EjerciciosNodeJS/ejercicio_05.js].
+<br>
 
-## The Office V - Find a Chair - BUSCA SILLAS
+> # (#6) The Office V - Find a Chair - BUSCA SILLAS
 
-# Referencia
-
-**Ejercicio obtenido de:** [Codewars The Office V - Find a Chair][https://www.codewars.com/kata/57f6051c3ff02f3b7300008b/javascript].
+**Ejercicio obtenido de:** [Codewars The Office V - Find a Chair](https://www.codewars.com/kata/57f6051c3ff02f3b7300008b/javascript).
 
 ## Descripción
 
@@ -214,13 +232,15 @@ Notas adicionales:
 
     Si no hay suficientes sillas disponibles en todas las salas, devuelve "Not enough!".
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_06.js](./ejercicio_06.js).
 
-La solución se encuentra en el archivo [ejercicio_06.js][EjerciciosNodeJS/ejercicio_06.js].
+<br>
 
-## ALBUM DE FOTOS
-
-# Referencia
+> # (#7) ALBUM DE FOTOS
 
 **Ejercicio obtenido de:** [Codewars]
 
@@ -264,36 +284,41 @@ Notas:
 
     Si no hay suficientes fotos para completar las 5, devuelve las que haya más la siguiente en secuencia.
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_07.js](./ejercicio_07.js).
 
-La solución se encuentra en el archivo [ejercicio_07.js][EjerciciosNodeJS/ejercicio_07.js].
+<br>
 
-## Summarize ranges - Resumir Rangos
+> # (#8) Summarize ranges - Resumir Rangos
 
-# Referencia
-
-**Ejercicio obtenido de:** [Codewars Summarize ranges][https://www.codewars.com/kata/55fb6537544ae06ccc0000dc].
+**Ejercicio obtenido de:** [Codewars Summarize ranges](https://www.codewars.com/kata/55fb6537544ae06ccc0000dc).
 
 ## Descripción
 
 Dada una matriz ordenada de números, devuelva el resumen de sus rangos.
+Entradas y salidas:
 
-[1, 2, 3, 4] ==> ["1->4"]
-[1, 1, 1, 1, 1] ==> ["1"]
-[0, 1, 2, 5, 6, 9] ==> ["0->2", "5->6", "9"]
-[0, 1, 2, 3, 3, 3, 4, 5, 6, 7] ==> ["0->7"]
-[0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7, 7, 9, 9, 10] ==> ["0->7", "9->10"]
-[-2,0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7, 7, 9, 9, 10, 12] ==> ["-2", "0->7", "9->10", "12"]
+    [1, 2, 3, 4] ==> ["1->4"]
+    [1, 1, 1, 1, 1] ==> ["1"]
+    [0, 1, 2, 5, 6, 9] ==> ["0->2", "5->6", "9"]
+    [0, 1, 2, 3, 3, 3, 4, 5, 6, 7] ==> ["0->7"]
+    [0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7, 7, 9, 9, 10] ==> ["0->7", "9->10"]
+    [-2,0, 1, 2, 3, 3, 3, 4, 4, 5, 6, 7, 7, 9, 9, 10, 12] ==> ["-2", "0->7", "9->10", "12"]
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solucion se encuetra en el archivo [ejercicio_08.js](./ejercicio_08.js).
 
-La solucion se encuetra en el archivo [ejercicio_08.js][EjerciciosNodeJS/ejercicio_08.js].
+<br>
 
-## UN-usual Sort - ORDENAMIENTO ESPECIAL
+> # (#9) UN-usual Sort - ORDENAMIENTO ESPECIAL
 
-# Referencia
-
-**Ejercicio obtenido de:** [Codewars UN-usual Sort][https://www.codewars.com/kata/5443b8857fc4473cb90008e4].
+**Ejercicio obtenido de:** [Codewars UN-usual Sort](https://www.codewars.com/kata/5443b8857fc4473cb90008e4).
 
 ## Descripción
 
@@ -335,28 +360,32 @@ Tu función debe ordenar las letras primero (mayúsculas antes que minúsculas,
 y en orden alfabético) y luego los números (valores numéricos antes que cadenas numéricas,
 y en orden ascendente).
 
-## Solución
+> [!TIP]
+>
+> ## Solución
+>
+> La solución se encuentra en el archivo [ejercicio_09.js](./ejercicio_09.js).
 
-La solución se encuentra en el archivo [ejercicio_09.js][EjerciciosNodeJS/ejercicio_09.js].
+<br>
 
-## Rectangle into Squares - CUADRADOS DENTRO UN RECTANGULO
+> # (#10) Rectangle into Squares - CUADRADOS DENTRO UN RECTANGULO
 
-# Referencia
-
-**Ejercicio obtenido de:** [Codewars Rectangle into Squares][https://www.codewars.com/kata/55466989aeecab5aac00003e/python].
+**Ejercicio obtenido de:** [Codewars Rectangle into Squares](https://www.codewars.com/kata/55466989aeecab5aac00003e/python).
 
 ## Descripción
 
+```
 ┌──────┬──────┬──────┬──────┬──────┐
 │░░░░░░│░░░░░░│░░░░░░│▒▒▒▒▒▒│▒▒▒▒▒▒│
-│░ │ │ ░│▒ │ ▒│
+│░     │      │     ░│▒     │     ▒│
 ├──────┼──────┼──────┼─── 4=2^2 ───┤
-│░ │9=3^2 │ ░│▒ │ ▒│
-│░ │ │ ░│▒▒▒▒▒▒│▒▒▒▒▒▒│
+│░     │9=3^2 │     ░│▒     │     ▒│
+│░     │      │     ░│▒▒▒▒▒▒│▒▒▒▒▒▒│
 ├──────┼──────┼──────┼──────┼──────┤
-│░ │ │ ░│ 1 │ 1 │
-│░░░░░░│░░░░░░│░░░░░░│ │ │
+│░     │      │     ░│  1   │  1   │
+│░░░░░░│░░░░░░│░░░░░░│      │      │
 └──────┴──────┴──────┴──────┴──────┘
+```
 
 El dibujo proporcionado muestra cómo cortar un rectángulo "verdadero"
 (es decir, un rectángulo donde las dos dimensiones son diferentes)
@@ -398,16 +427,8 @@ Notas:
     debes devolver un valor que indique que no hay solución
     válida bajo las reglas de este problema.
 
-## solución
-
-La solucion se encuentra en el archivo [ejericio_10.js][EjerciciosNodeJS/ejercicio_10.js].
-
-## Derechos de autor
-
-El ejercicio y su descripcion son propiedad de [Codewars](https://www.codewars.com/) y sus respectivos autores.
-Agradezco a [Codewars](https://www.codewars.com/) por proporcionar este desafio y permitirme compartir mi solucion.
-
-## Licencia
-
-Este código se proporciona bajo la licencia [MIT](LICENSE).
-Sin embargo, el ejercicio y su descripción son propiedad de [Codewars](https://www.codewars.com) y deben respetarse sus términos y condiciones.
+> [!TIP]
+>
+> ## solución
+>
+> La solucion se encuentra en el archivo [ejericio_10.js](./ejercicio_10.js).
